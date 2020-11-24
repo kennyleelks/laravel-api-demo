@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "4f1a7fd6-0a2d-47df-a077-1bee4bfc6682",
+		"name": "Demo-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello World",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.demo.test/hello",
+					"protocol": "http",
+					"host": [
+						"api",
+						"demo",
+						"test"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "註冊",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "kenny@test.test",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123123",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Kenny",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.demo.test/register",
+					"protocol": "http",
+					"host": [
+						"api",
+						"demo",
+						"test"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "登入",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "kenny@test.test",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.demo.test/login",
+					"protocol": "http",
+					"host": [
+						"api",
+						"demo",
+						"test"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "取得個人資料",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.demo.test/me",
+					"protocol": "http",
+					"host": [
+						"api",
+						"demo",
+						"test"
+					],
+					"path": [
+						"me"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
