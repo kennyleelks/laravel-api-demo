@@ -23,11 +23,29 @@ class UserController extends Controller
 
     public function updateMe(Request $request)
     {
+        $this->validate($request, [
+            'name' => ['nullable', 'string'],
+        ]);
+
         $user = $request->user();
+
+        $user->name = $request->get('name');
+        $user->save();
+
+        return response()->json([
+            'status' => 1,
+        ]);
     }
+
 
     public function deleteMe(Request $request)
     {
         $user = $request->user();
+
+        $user->delete();
+
+        return response()->json([
+            'status' => 1,
+        ]);
     }
 }

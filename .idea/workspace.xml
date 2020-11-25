@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21882e94-cd99-41f5-a070-9f0614722e76" name="Default Changelist" comment="" />
+    <list default="true" id="21882e94-cd99-41f5-a070-9f0614722e76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="DockerExecCommand">
+    <ExecCommand>
+      <option name="command" value="bash" />
+      <option name="imageId" value="sha256:716ce1395e177f41c20bd5e30aa4150f96f4428ff1727f32ebddd833c819fe29" />
+    </ExecCommand>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -127,7 +143,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -153,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606208739592</updated>
-      <workItem from="1606208740682" duration="4665000" />
+      <workItem from="1606208740682" duration="4847000" />
+      <workItem from="1606271706362" duration="1286000" />
     </task>
     <servers />
   </component>
@@ -173,13 +192,13 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="985" y="453" key="NewPhpClassDialog/2560.0.1920.1080/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1606221065876" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1606217818924">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1606275753757">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/2560.0.1920.1080/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1606217818924" />
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1606209325762">
+    <state width="500" height="445" key="SwitcherDM/2560.0.1920.1080/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1606275753757" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1606271900087">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/2560.0.1920.1080/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1606209325762" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/2560.0.1920.1080/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1606271900087" />
   </component>
 </project>
